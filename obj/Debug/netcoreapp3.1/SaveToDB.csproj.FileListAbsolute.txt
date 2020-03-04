@@ -29,3 +29,4 @@ E:\Programmering\C#\SaveToDB\SaveToDB\obj\Debug\netcoreapp3.1\SaveToDB.AssemblyI
 E:\Programmering\C#\SaveToDB\SaveToDB\obj\Debug\netcoreapp3.1\SaveToDB.csproj.CopyComplete
 E:\Programmering\C#\SaveToDB\SaveToDB\obj\Debug\netcoreapp3.1\SaveToDB.dll
 E:\Programmering\C#\SaveToDB\SaveToDB\obj\Debug\netcoreapp3.1\SaveToDB.pdb
+E:\Programmering\C#\SaveToDB\SaveToDB\obj\Debug\netcoreapp3.1\SaveToDB.csprojAssemblyReference.cache

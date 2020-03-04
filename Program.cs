@@ -9,7 +9,11 @@ namespace SaveToDB
     {
         static void Main(string[] args)
         {
-            if(!String.IsNullOrEmpty(Helper.ConnectionValue("csvDB")))
+            if(String.IsNullOrEmpty(Helper.ConnectionValue("csvDB")))
+            {
+                Console.WriteLine("Please enter a connection string in app.config"); 
+            }
+            else
             {
                 Console.WriteLine("Getting data from CSV...");
                 var Items = Data.GetData();
@@ -20,11 +24,6 @@ namespace SaveToDB
                 Console.WriteLine("Saving data to DB (this takes a long time!)");
                 Data.SaveData(Items);
                 Console.WriteLine("Done saving to Database!");
-                
-            }
-            else
-            {
-                Console.WriteLine("Please enter a connection string in app.config");
             }
         }
     }
